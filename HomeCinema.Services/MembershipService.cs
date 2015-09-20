@@ -38,7 +38,6 @@ namespace HomeCinema.Services {
             var ctx = new MembershipContext();
 
             var user = m_userRepo.GetUserByUsername(username);
-
             if (user != null && IsUserValid(user, password)) {
                 ctx.User = user;
 
