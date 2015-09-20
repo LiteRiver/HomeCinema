@@ -26,7 +26,7 @@ namespace HomeCinema.Data.Infrastructure {
             }            
         }
 
-        protected void DisposeCore() {
+        protected virtual void DisposeCore() {
             
         }
     }

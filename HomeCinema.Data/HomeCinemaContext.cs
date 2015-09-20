@@ -11,8 +11,7 @@ using System.Threading.Tasks;
 namespace HomeCinema.Data {
     public class HomeCinemaContext : DbContext {
         public HomeCinemaContext()
-            : base("HomeCinema") {
-                Database.SetInitializer<HomeCinemaContext>(null);
+            : base("HomeCinema") {                
         }
 
         #region Entity Sets
