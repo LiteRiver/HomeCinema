@@ -30,8 +30,7 @@ namespace HomeCinema.Web {
                 "~/Scripts/vendors/morris.js",
                 "~/Scripts/vendors/jquery.fancybox.js",
                 "~/Scripts/vendors/jquery.fancybox-media.js",
-                "~/Scripts/vendors/loading-bar.js"
-                ));
+                "~/Scripts/vendors/loading-bar.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/css/site.css",
@@ -41,8 +40,7 @@ namespace HomeCinema.Web {
                 "~/Content/css/morris.css",
                 "~/Content/css/toastr.css",
                 "~/Content/css/jquery.fancybox.css",
-                "~/Content/css/loading-bar.css"
-                ));
+                "~/Content/css/loading-bar.css"));
 
             BundleTable.EnableOptimizations = false;
         }
